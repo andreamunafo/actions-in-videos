@@ -20,7 +20,8 @@ modules = ["dataset_ucf101.py",
            "data_augmentation.py",
            "models.py"]
 
-git_url = "https://github.com/andreamunafo/actions_in_videos/tree/master/"
+doc_url = "https://andreamunafo.github.io/actions_in_videos/"
 
+git_url = "https://github.com/andreamunafo/actions_in_videos/tree/master/"
 
 def custom_doc_links(name): return None
