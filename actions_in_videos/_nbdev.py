@@ -5,6 +5,8 @@ __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 index = {"UCF101": "01_dataset_ucf101.ipynb",
          "SingleFrameDataset": "01_dataset_ucf101.ipynb",
          "BatchShower": "01_dataset_ucf101.ipynb",
+         "SequenceDataset": "01_dataset_ucf101.ipynb",
+         "SequenceBatchShower": "01_dataset_ucf101.ipynb",
          "AVI": "02_avi.ipynb",
          "Rescale": "04_data_augmentation.ipynb",
          "RandomCrop": "04_data_augmentation.ipynb",
@@ -13,15 +15,20 @@ index = {"UCF101": "01_dataset_ucf101.ipynb",
          "RandomHorizontalFlip": "04_data_augmentation.ipynb",
          "AddRandomBrightness": "04_data_augmentation.ipynb",
          "ResNet50Classifier": "05_models.ipynb",
-         "ResNet152Classifier": "05_models.ipynb"}
+         "ResNet152Classifier": "05_models.ipynb",
+         "Encoder": "05_models.ipynb",
+         "LSTM": "05_models.ipynb",
+         "Attention": "05_models.ipynb",
+         "ConvLSTM": "05_models.ipynb",
+         "Table": "06_utils.ipynb"}
 
 modules = ["dataset_ucf101.py",
            "avi.py",
            "data_augmentation.py",
-           "models.py"]
-
-doc_url = "https://andreamunafo.github.io/actions_in_videos/"
+           "models.py",
+           "utils.py"]
 
 git_url = "https://github.com/andreamunafo/actions_in_videos/tree/master/"
+
 
 def custom_doc_links(name): return None
